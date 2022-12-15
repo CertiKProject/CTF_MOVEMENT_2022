@@ -1,0 +1,14 @@
+[package]
+name = 'attack2'
+version = '1.0.0'
+
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'mainnet'
+subdir = 'aptos-move/framework/aptos-framework'
+
+[dependencies.simple-swap]
+local = "../3-SimpleSwap-challenge"
+
+[addresses]
+attack = "_" # put the your address here

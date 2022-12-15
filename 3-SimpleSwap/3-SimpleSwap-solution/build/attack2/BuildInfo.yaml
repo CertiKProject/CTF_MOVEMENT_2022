@@ -1,0 +1,30 @@
+---
+compiled_package_info:
+  package_name: attack2
+  address_alias_instantiation:
+    Extensions: "0000000000000000000000000000000000000000000000000000000000000001"
+    aptos_framework: "0000000000000000000000000000000000000000000000000000000000000001"
+    aptos_std: "0000000000000000000000000000000000000000000000000000000000000001"
+    aptos_token: "0000000000000000000000000000000000000000000000000000000000000003"
+    attack: 7fdc8f44fbbdb62cadf0c15a40e4e82b8a535d785d4f6084b129b46c4bf31ce7
+    core_resources: 000000000000000000000000000000000000000000000000000000000a550c18
+    ctfmovement: f6e7e39030a7c29702a2b1adf2307ef631ad7aef4fe5637933914afe89c55392
+    std: "0000000000000000000000000000000000000000000000000000000000000001"
+    vm_reserved: "0000000000000000000000000000000000000000000000000000000000000000"
+  source_digest: 79621FC0DC0373EF9D597676295EA47F69FF2189D6F1EA8F68D092DDC7299E5B
+  build_flags:
+    dev_mode: false
+    test_mode: false
+    generate_docs: false
+    generate_abis: false
+    install_dir: ~
+    force_recompilation: false
+    additional_named_addresses: {}
+    architecture: ~
+    fetch_deps_only: false
+    skip_fetch_latest_git_deps: true
+dependencies:
+  - AptosFramework
+  - AptosStdlib
+  - MoveStdlib
+  - simple-swap

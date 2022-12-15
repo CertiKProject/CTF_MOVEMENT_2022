@@ -1,0 +1,1 @@
+`aptos move run-script --compiled-script-path ./build/attack5/bytecode_scripts/main.mv`
